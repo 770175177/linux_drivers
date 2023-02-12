@@ -1,0 +1,1 @@
+cmd_/home/topeet/itop/37-pinctrl_gpioin/pinctrl_gpioin.ko := arm-none-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/topeet/itop/37-pinctrl_gpioin/pinctrl_gpioin.ko /home/topeet/itop/37-pinctrl_gpioin/pinctrl_gpioin.o /home/topeet/itop/37-pinctrl_gpioin/pinctrl_gpioin.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/topeet/itop/29-usb_ch34x/ch34x.ko := /usr/local/arm/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL -r  -T /home/topeet/android/iTop4412_Kernel_3.0/scripts/module-common.lds --build-id  -o /home/topeet/itop/29-usb_ch34x/ch34x.ko /home/topeet/itop/29-usb_ch34x/ch34x.o /home/topeet/itop/29-usb_ch34x/ch34x.mod.o

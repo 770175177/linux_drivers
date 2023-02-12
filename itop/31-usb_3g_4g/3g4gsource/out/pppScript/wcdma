@@ -1,0 +1,51 @@
+# /etc/ppp/peers/wcdma
+# This is pppd script for China liantong
+# Usage: root>pppd call wcdma
+
+hide-password
+
+noauth
+
+connect '/usr/sbin/chat -s -v -f /etc/ppp/peers/wcdma-chat-connect'
+
+disconnect '/usr/sbin/chat -s -v -f /etc/ppp/peers/wcdma-chat-disconnect'
+
+debug
+
+/dev/ttyUSB0
+
+115200
+
+defaultroute
+
+noipdefault
+
+novj
+
+novjccomp
+
+noccp
+
+ipcp-accept-local
+
+ipcp-accept-remote
+
+local
+
+lock
+
+dump
+
+nodetach
+
+user "card"
+
+password "card"
+
+crtscts
+
+remotename 3gppp
+
+ipparam 3gppp
+
+usepeerdns

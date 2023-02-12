@@ -1,0 +1,1 @@
+cmd_/home/topeet/zhuyoupeng/driver/itop/01-hello/built-in.o :=  rm -f /home/topeet/zhuyoupeng/driver/itop/01-hello/built-in.o; /usr/local/arm/arm-2009q3/bin/arm-none-linux-gnueabi-ar rcsD /home/topeet/zhuyoupeng/driver/itop/01-hello/built-in.o

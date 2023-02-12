@@ -1,0 +1,1 @@
+cmd_/home/topeet/itop/36-pinctrl_led/pinctrl_led.ko := arm-none-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/topeet/itop/36-pinctrl_led/pinctrl_led.ko /home/topeet/itop/36-pinctrl_led/pinctrl_led.o /home/topeet/itop/36-pinctrl_led/pinctrl_led.mod.o ;  true

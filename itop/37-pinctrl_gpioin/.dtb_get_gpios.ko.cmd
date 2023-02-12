@@ -1,0 +1,1 @@
+cmd_/home/topeet/itop/35-dtb_get_gpios/dtb_get_gpios.ko := arm-none-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/topeet/itop/35-dtb_get_gpios/dtb_get_gpios.ko /home/topeet/itop/35-dtb_get_gpios/dtb_get_gpios.o /home/topeet/itop/35-dtb_get_gpios/dtb_get_gpios.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/topeet/itop/06-device_node/dev_node_int.ko := /usr/local/arm/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL -r  -T /home/topeet/android/iTop4412_Kernel_3.0/scripts/module-common.lds --build-id  -o /home/topeet/itop/06-device_node/dev_node_int.ko /home/topeet/itop/06-device_node/dev_node_int.o /home/topeet/itop/06-device_node/dev_node_int.mod.o

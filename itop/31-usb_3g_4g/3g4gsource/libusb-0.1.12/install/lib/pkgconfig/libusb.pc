@@ -1,0 +1,11 @@
+prefix=/home/topeet/itop/31-usb_3g_4g/3g4gsource/libusb-0.1.12/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libusb
+Description: USB access library
+Version: 0.1.12
+Libs: -L${libdir} -lusb
+Cflags: -I${includedir}
+

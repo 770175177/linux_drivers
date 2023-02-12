@@ -1,0 +1,12 @@
+ABORT "ERROR"
+
+ABORT "NO DIALTONE"
+
+SAY "INSending break to the modem\n"
+
+""\k"
+
+""+++ATH"
+
+SAY "\nGood bye\n"
+

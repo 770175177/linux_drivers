@@ -1,0 +1,1 @@
+cmd_/home/topeet/itop/34-dtb-get/itop4412_register_dev_drv.ko := arm-none-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/topeet/itop/34-dtb-get/itop4412_register_dev_drv.ko /home/topeet/itop/34-dtb-get/itop4412_register_dev_drv.o /home/topeet/itop/34-dtb-get/itop4412_register_dev_drv.mod.o ;  true
