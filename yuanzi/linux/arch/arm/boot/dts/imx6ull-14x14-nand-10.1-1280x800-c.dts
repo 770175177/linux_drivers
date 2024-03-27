@@ -1,0 +1,36 @@
+
+#include "imx6ull-14x14-evk-gpmi-weim.dts"
+
+&i2c2 {
+        goodix_ts@5d {
+                reg = <0x5d>;
+        };
+};
+
+&lcdif {
+	display0: display {
+		bits-per-pixel = <16>;
+		bus-width = <24>;
+
+		display-timings {
+			native-mode = <&timing0>;
+			timing0: timing0 {
+                        /* do not change the clock on alpha and mini board*/
+                        clock-frequency = <53500000>;
+			hactive = <1280>;
+			vactive = <800>;
+			hfront-porch = <70>;
+			hback-porch = <80>;
+			hsync-len = <10>;
+			vback-porch = <10>;
+			vfront-porch = <10>;
+			vsync-len = <3>;
+
+			hsync-active = <0>;
+			vsync-active = <0>;
+			de-active = <1>;
+			pixelclk-active = <1>;
+			};
+		};
+	};
+};

@@ -1,0 +1,6 @@
+config EXTRA_RTL8192CU
+	tristate "extra Realtek 8192C USB WiFi"
+	depends on USB
+	---help---
+	  Help message of EXTRA_RTL8192CU
+
